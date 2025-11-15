@@ -12214,7 +12214,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "1b6c4c2d-b53a-4133-97b2-9181f5b60949")
@@ -17138,7 +17138,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C22809"
 			(at 110.49 185.42 0)
 			(effects
 				(font
@@ -17147,7 +17147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 110.49 185.42 0)
 			(effects
 				(font
@@ -17156,7 +17156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF1502T5E"
 			(at 110.49 185.42 0)
 			(effects
 				(font
@@ -18446,7 +18446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "LQW15AN2N7G80D"
+		(property "Manufacturer Part Number" "LQG15HS2N7S02D"
 			(at 85.09 22.86 90)
 			(effects
 				(font
@@ -18464,7 +18464,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C412269"
+		(property "JLCPCB Part #" "C77108"
 			(at 85.09 22.86 90)
 			(effects
 				(font
@@ -20999,6 +20999,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 157.48 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 157.48 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 157.48 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "45c6288a-a8ac-4a58-93b9-f2def47f0a50")
 		)
@@ -22166,6 +22193,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744"
+			(at 157.48 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 157.48 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 157.48 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6f4ac7d-8cff-402f-8686-c68b41b565ae")
 		)
@@ -22544,7 +22598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "LQW15AN2N7G80D"
+		(property "Manufacturer Part Number" "LQG15HS2N7S02D"
 			(at 55.88 39.37 90)
 			(effects
 				(font
@@ -22562,7 +22616,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C412269"
+		(property "JLCPCB Part #" "C77108"
 			(at 55.88 39.37 90)
 			(effects
 				(font
@@ -23026,7 +23080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "9k"
+		(property "Value" "9k1"
 			(at 127 181.6099 0)
 			(effects
 				(font
@@ -23071,7 +23125,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C23260"
 			(at 129.54 180.34 90)
 			(effects
 				(font
@@ -23080,7 +23134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Uniroyal Elec"
 			(at 129.54 180.34 90)
 			(effects
 				(font
@@ -23089,7 +23143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "0603WAF9101T5E"
 			(at 129.54 180.34 90)
 			(effects
 				(font
