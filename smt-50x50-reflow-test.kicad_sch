@@ -6766,16 +6766,48 @@
 		(uuid "f8d5d53f-979f-416c-9764-c50ce167940d")
 	)
 	(no_connect
+		(at 138.43 99.06)
+		(uuid "0f6c4139-4e83-41ba-a353-16e351bc52ec")
+	)
+	(no_connect
+		(at 138.43 83.82)
+		(uuid "25415fe6-e6ca-4ab4-9a2b-f0a90c1036a5")
+	)
+	(no_connect
+		(at 138.43 88.9)
+		(uuid "254f9701-bc9e-4e92-97de-eec83fba2acb")
+	)
+	(no_connect
+		(at 138.43 106.68)
+		(uuid "41bc5547-917a-4826-9750-d786337a06e6")
+	)
+	(no_connect
 		(at 138.43 73.66)
 		(uuid "5c4489d4-c44b-4f1e-85d9-78ba0ddec91d")
+	)
+	(no_connect
+		(at 138.43 101.6)
+		(uuid "6178be89-d44d-425e-9e21-129a67345778")
 	)
 	(no_connect
 		(at 138.43 76.2)
 		(uuid "660f3c82-0e15-4220-8ea1-ff228ff79b06")
 	)
 	(no_connect
+		(at 138.43 96.52)
+		(uuid "912f9581-a928-4e4f-a360-c77ea93613e7")
+	)
+	(no_connect
 		(at 138.43 86.36)
 		(uuid "983a07f3-947f-4fff-9763-fe8ec068b0e3")
+	)
+	(no_connect
+		(at 138.43 93.98)
+		(uuid "b07c387c-7be2-4fb8-b10d-ba51ad90364b")
+	)
+	(no_connect
+		(at 138.43 104.14)
+		(uuid "c21b7608-dda6-432d-92a0-565c14f99c9e")
 	)
 	(wire
 		(pts
@@ -14591,7 +14623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51056950-64d7-4b03-9a1d-e079ff5fba6b")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0102"
 			(at 139.7 160.02 0)
 			(effects
 				(font
@@ -14642,7 +14674,7 @@
 		(instances
 			(project "smt-50x50-reflow-test"
 				(path "/316df49b-410f-46a7-9063-0920c2d0517b"
-					(reference "#PWR07")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
