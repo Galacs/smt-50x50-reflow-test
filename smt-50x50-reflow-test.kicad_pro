@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -458,7 +458,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -473,6 +473,56 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(132, 132, 132)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "I2C",
+        "pcb_color": "rgb(194, 0, 194)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 3, 17)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgb(255, 231, 6)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SDIO",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SPI_FLASH",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "diff_pair_gap": 0.4,
+        "diff_pair_width": 0.359,
+        "name": "USB",
+        "pcb_color": "rgb(34, 255, 22)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "XTAL",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -520,7 +570,36 @@
         "SPI_FLASH"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "XTAL",
+        "pattern": "/XTAL_*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/RF*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/ESP_D*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SCL"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
