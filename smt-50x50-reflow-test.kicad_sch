@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "316df49b-410f-46a7-9063-0920c2d0517b")
 	(paper "A4")
+	(title_block
+		(title "SMT 50x50 reflow test")
+		(date "2025-11-15")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
