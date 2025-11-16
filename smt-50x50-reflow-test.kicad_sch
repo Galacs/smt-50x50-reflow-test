@@ -7210,6 +7210,10 @@
 		(uuid "31eeeed1-1b14-47a3-a53d-f06b74d4e263")
 	)
 	(no_connect
+		(at 265.43 31.75)
+		(uuid "40da7688-e527-4d5d-8f40-cb3e9142ca8c")
+	)
+	(no_connect
 		(at 138.43 73.66)
 		(uuid "5c4489d4-c44b-4f1e-85d9-78ba0ddec91d")
 	)
@@ -7220,6 +7224,10 @@
 	(no_connect
 		(at 138.43 86.36)
 		(uuid "983a07f3-947f-4fff-9763-fe8ec068b0e3")
+	)
+	(no_connect
+		(at 138.43 106.68)
+		(uuid "9b4025d9-2480-4435-85c4-978174f7e788")
 	)
 	(wire
 		(pts
@@ -8983,16 +8991,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 30.48) (xy 273.05 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731dae80-2e91-46b8-8c7c-48cb3805bd8e")
-	)
-	(wire
-		(pts
 			(xy 162.56 80.01) (xy 162.56 78.74)
 		)
 		(stroke
@@ -9580,16 +9578,6 @@
 			(type default)
 		)
 		(uuid "9715fefa-7d8b-4002-bd8e-13f987c0684f")
-	)
-	(wire
-		(pts
-			(xy 138.43 106.68) (xy 154.94 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97b89555-cc33-4eb0-9fc7-672929a19d75")
 	)
 	(wire
 		(pts
@@ -10200,16 +10188,6 @@
 			(type default)
 		)
 		(uuid "c973e0bb-691f-4baf-8598-d14b55aa8c21")
-	)
-	(wire
-		(pts
-			(xy 265.43 31.75) (xy 273.05 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca3de2d3-f800-4156-a15a-8bcbe9fba61f")
 	)
 	(wire
 		(pts
@@ -10843,16 +10821,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 21.59) (xy 273.05 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3d5cc5d-7446-4db0-973b-1af4184d87b9")
-	)
-	(wire
-		(pts
 			(xy 203.2 95.25) (xy 205.74 95.25)
 		)
 		(stroke
@@ -11101,16 +11069,6 @@
 		)
 		(uuid "12738337-56ef-47d1-8583-638704ca7244")
 	)
-	(label "TMP117_ALERT2"
-		(at 271.78 31.75 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "184db2cd-d9bc-4e7f-9460-a56b8ab8d317")
-	)
 	(label "RF_ESP"
 		(at 63.5 39.37 0)
 		(effects
@@ -11270,16 +11228,6 @@
 			(justify right bottom)
 		)
 		(uuid "92ff41a3-7cc5-4958-b1a4-b69929008d4d")
-	)
-	(label "TMP117_ALERT2"
-		(at 154.94 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95af4f7f-969c-4f74-8a69-80be95cefc96")
 	)
 	(label "SDA"
 		(at 151.13 78.74 180)
@@ -12251,112 +12199,6 @@
 			(project "smt-50x50-reflow-test"
 				(path "/316df49b-410f-46a7-9063-0920c2d0517b"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 273.05 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0ae2a4dc-339f-425f-ba0a-fdd7f434277a")
-		(property "Reference" "R62"
-			(at 275.59 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 275.59 27.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 271.272 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 273.05 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 273.05 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "Y"
-			(at 273.05 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25804"
-			(at 273.05 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Uniroyal Elec"
-			(at 273.05 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
-			(at 273.05 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "706307e5-83fd-4f97-aeb0-41e8fe0a4e2f")
-		)
-		(pin "2"
-			(uuid "83454240-a0ba-4fac-b591-b0cf34c26c2b")
-		)
-		(instances
-			(project "smt-50x50-reflow-test"
-				(path "/316df49b-410f-46a7-9063-0920c2d0517b"
-					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -22940,72 +22782,6 @@
 			(project "smt-50x50-reflow-test"
 				(path "/316df49b-410f-46a7-9063-0920c2d0517b"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 273.05 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c32e7bf7-8f57-4c9f-a79a-e3831cfc0b5d")
-		(property "Reference" "#PWR0110"
-			(at 273.05 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 270.51 17.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 273.05 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "22e0f929-7e2a-482f-af85-8d50cadd9e6c")
-		)
-		(instances
-			(project "smt-50x50-reflow-test"
-				(path "/316df49b-410f-46a7-9063-0920c2d0517b"
-					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
