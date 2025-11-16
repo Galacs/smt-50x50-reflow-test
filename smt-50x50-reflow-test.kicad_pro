@@ -576,6 +576,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(U1-CLK)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-DI{slash}IO_{0})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-DO{slash}IO_{1})": [
+        "SPI_FLASH"
+      ],
       "Net-(U1-SPICLK{slash}GPIO29)": [
         "SPI_FLASH"
       ],
@@ -594,7 +603,19 @@
       "Net-(U1-SPIWP{slash}GPIO26)": [
         "SPI_FLASH"
       ],
+      "Net-(U1-VCC)": [
+        "SPI_FLASH"
+      ],
       "Net-(U1-VDD_SPI{slash}GPIO27)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-~{CS})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-~{HOLD}{slash}~{RESET}{slash}IO_{3})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U1-~{WP}{slash}IO_{2})": [
         "SPI_FLASH"
       ],
       "Net-(U2-CLK)": [
@@ -613,6 +634,24 @@
         "SPI_FLASH"
       ],
       "Net-(U2-~{WP}{slash}IO_{2})": [
+        "SPI_FLASH"
+      ],
+      "Net-(U3-SPICLK{slash}GPIO29)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U3-SPICS0{slash}GPIO24)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U3-SPID{slash}GPIO30)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U3-SPIHD{slash}GPIO28)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U3-SPIQ{slash}GPIO25)": [
+        "SPI_FLASH"
+      ],
+      "Net-(U3-SPIWP{slash}GPIO26)": [
         "SPI_FLASH"
       ]
     },
