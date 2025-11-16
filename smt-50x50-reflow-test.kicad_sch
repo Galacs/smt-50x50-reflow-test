@@ -11983,7 +11983,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2"
+		(property "Value" "2u2"
 			(at 181.61 102.616 90)
 			(effects
 				(font
@@ -12011,6 +12011,33 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 181.61 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C335106"
+			(at 181.61 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 181.61 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM033R61A225KE47D"
+			(at 181.61 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13038,6 +13065,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 199.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C473048"
+			(at 199.39 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 199.39 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " 0201WMF1002TEE C473048 "
+			(at 199.39 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,6 +14460,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 218.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C507485"
+			(at 218.44 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 218.44 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCR004QLPF1331"
+			(at 218.44 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16240,6 +16321,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C560366"
+			(at 218.44 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 218.44 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0105WHF4301TDE"
+			(at 218.44 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29efddcf-beb8-43da-8c83-a45a7d6f3665")
 		)
@@ -16366,6 +16474,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C270692"
+			(at 199.39 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 199.39 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0201WMF698JTEE"
+			(at 199.39 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18127,6 +18262,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C473053"
+			(at 199.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 199.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0201WMF3902TEE"
+			(at 199.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "618f70fd-485c-4b3e-b78f-f221ae98e6db")
 		)
@@ -19228,6 +19390,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C270344"
+			(at 171.45 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 171.45 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " 0201WMF5101TEE"
+			(at 171.45 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1dfff524-ccd0-4b91-b191-133f1f22c506")
 		)
@@ -19362,6 +19551,33 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5440629"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XL-0201UOC"
 			(at 181.61 90.17 0)
 			(effects
 				(font
@@ -19741,6 +19957,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 218.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C560400"
+			(at 218.44 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 218.44 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0105WHJ0203TDE"
+			(at 218.44 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21682,6 +21925,33 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C270353"
+			(at 199.39 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 199.39 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0201WMF2402TEE"
+			(at 199.39 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aed8b03a-91fb-45df-ac3d-e3e04a0d9594")
 		)
@@ -22120,6 +22390,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C270344"
+			(at 171.45 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 171.45 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" " 0201WMF5101TEE"
+			(at 171.45 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22765,6 +23062,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C850442"
+			(at 218.44 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 218.44 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0100FR-07750RL"
+			(at 218.44 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
