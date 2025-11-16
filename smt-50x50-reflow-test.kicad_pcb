@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "SMT 50x50 reflow test")
+		(date "2025-11-16")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
