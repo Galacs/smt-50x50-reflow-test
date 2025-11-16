@@ -7194,10 +7194,6 @@
 		(uuid "0f6048b3-6fd9-4c7c-8f36-eb3e3cf23387")
 	)
 	(no_connect
-		(at 138.43 99.06)
-		(uuid "0f6c4139-4e83-41ba-a353-16e351bc52ec")
-	)
-	(no_connect
 		(at 138.43 83.82)
 		(uuid "25415fe6-e6ca-4ab4-9a2b-f0a90c1036a5")
 	)
@@ -7214,8 +7210,8 @@
 		(uuid "40da7688-e527-4d5d-8f40-cb3e9142ca8c")
 	)
 	(no_connect
-		(at 138.43 73.66)
-		(uuid "5c4489d4-c44b-4f1e-85d9-78ba0ddec91d")
+		(at 138.43 104.14)
+		(uuid "641f0dad-b5e5-4640-b19b-4a7af7a0965b")
 	)
 	(no_connect
 		(at 138.43 76.2)
@@ -7228,6 +7224,10 @@
 	(no_connect
 		(at 138.43 106.68)
 		(uuid "9b4025d9-2480-4435-85c4-978174f7e788")
+	)
+	(no_connect
+		(at 138.43 101.6)
+		(uuid "f154b9fb-5fcc-404a-b45f-ea19c32b8ffa")
 	)
 	(wire
 		(pts
@@ -7488,16 +7488,6 @@
 			(type default)
 		)
 		(uuid "0c02a799-30e9-4f20-b13d-a1d1a50daff9")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 154.94 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cbef870-0992-4b39-b8f9-a50aa6147a66")
 	)
 	(wire
 		(pts
@@ -7788,16 +7778,6 @@
 			(type default)
 		)
 		(uuid "200c3cad-fd14-4eef-8f73-e294465aba33")
-	)
-	(wire
-		(pts
-			(xy 138.43 104.14) (xy 154.94 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20556db7-29c7-470b-9656-ec0fa9ce033d")
 	)
 	(wire
 		(pts
@@ -8408,6 +8388,16 @@
 			(type default)
 		)
 		(uuid "4d416306-07c5-45f6-b9a8-92b5578267ca")
+	)
+	(wire
+		(pts
+			(xy 138.43 73.66) (xy 154.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d55cd71-3c2f-43c5-bc93-cc82cb4a4771")
 	)
 	(wire
 		(pts
@@ -10141,6 +10131,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4838a71-1332-466c-8996-033776d87d5e")
+	)
+	(wire
+		(pts
 			(xy 62.23 146.05) (xy 62.23 144.78)
 		)
 		(stroke
@@ -11079,16 +11079,6 @@
 		)
 		(uuid "1c7dcc22-c4a9-4e51-8be4-b1bd3ec4198b")
 	)
-	(label "TMP117_ALERT"
-		(at 154.94 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "226afb68-a6cd-492a-aa54-f56bde1af611")
-	)
 	(label "BOOT{slash}SCL"
 		(at 242.57 74.93 0)
 		(effects
@@ -11148,16 +11138,6 @@
 			(justify left bottom)
 		)
 		(uuid "583cefdd-8268-4166-9e98-0a93ad4136fb")
-	)
-	(label "BMP_INT1"
-		(at 154.94 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59bf2ab3-afbc-42f2-ad3f-7ab2d4b46fd9")
 	)
 	(label "SDA"
 		(at 247.65 77.47 0)
@@ -11308,6 +11288,26 @@
 			(justify right bottom)
 		)
 		(uuid "c4534c99-010b-42c3-9a42-e4f91a582263")
+	)
+	(label "BMP_INT1"
+		(at 154.94 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "caf59068-7d2d-4973-acf2-0cc5366f663b")
+	)
+	(label "TMP117_ALERT"
+		(at 154.94 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d42d5128-fcb6-427d-be3e-15a8caf09c0c")
 	)
 	(label "CHIP_PU"
 		(at 43.18 184.15 180)
