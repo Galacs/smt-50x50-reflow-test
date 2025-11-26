@@ -31475,8 +31475,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "なになに edition"
-		(at 178.4 118 0)
+	(gr_text "絶対アイドル辞めないで edition"
+		(at 179.25 118 0)
 		(layer "B.SilkS")
 		(uuid "d1c27905-1c2a-4903-878f-99c50ad628ea")
 		(effects
