@@ -16,4 +16,8 @@ ESP32-C6 50x50 board made to test smd reflow techniques with various components 
 
 ## Top preview
 
+<img width="897" height="900" alt="image" src="https://github.com/user-attachments/assets/db688f61-6a1a-4dfc-b05d-35268189d0ed" />
+
 ## Preview 3d render
+
+<img width="1201" height="892" alt="image" src="https://github.com/user-attachments/assets/f4a9a3f5-220b-4032-a23a-a1adfb4ef3e3" />
