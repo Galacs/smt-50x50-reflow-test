@@ -1,4 +1,4 @@
-# ESP32-C3 Sensor-Devboard
+# SMT 50x50 reflow test
 
 ESP32-C6 50x50 board made to test smd reflow techniques with various components packages (QFN, HTSOP, WSON, USBC, SOT, SOIC, 0201)
 
